@@ -1,25 +1,8 @@
 import React from 'react';
 import './App.css';
+import Box from './Box';
+import Header from './Header';
 
-function Box(props){
-  return(
-    <div className="Box">
-      <h2>{props.name}</h2>
-  <p>Title: {props.title}</p>
-  <p>Age: {props.age}</p>
-    </div>
-  );
-}
-
-function Header(){
-  return(
-    <header className="Header">
-      <h1 className="Logo">
-        Boxes
-      </h1>
-    </header>
-  );
-}
 
 function App() {
   return (
