@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  margin: auto 0;
+}
+.Header {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: darkmagenta;
+  color: white;
+}
+.Box {
+  display: inline-block;
+  min-height: 15rem;
+  min-width: 15rem;
+  background-color: teal;
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.Box p {
+  margin: 1rem;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 40vw;
+}
