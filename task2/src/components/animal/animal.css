@@ -1,0 +1,14 @@
+.cards {
+  background-color: lightblue;
+  padding: 1rem;
+  margin: 1rem;
+  width: fit-content;
+}
+.cards img {
+  width: 200px;
+}
+
+.cards * {
+  margin: 1rem;
+  display: block;
+}
