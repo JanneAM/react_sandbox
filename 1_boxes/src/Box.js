@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Box(props){
+const Box = (props) => {
     return(
       <div className="Box">
         <h2>{props.name}</h2>
