@@ -1,0 +1,10 @@
+.footer {
+  min-height: 3rem;
+  background-color: teal;
+  color: white;
+  padding: 1rem;
+}
+
+.footer p {
+  text-align: center;
+}
