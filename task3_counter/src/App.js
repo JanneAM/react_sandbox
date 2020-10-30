@@ -5,25 +5,32 @@ import Footer from './components/footer';
 
 class App extends Component {
   state = {
-    likes:0
+    likes:0,
+    counterStyle: {
+      backgroundColor: 'black'
+    }
   };
 
-  addHandler = () =>{
+  colorHandler = () => {
+    this.setState({backgroundColor:'white'});
+  }
+  addHandler = () => {
     this.setState({likes: this.state.likes + 1})
   }
-  removeHandler = () =>{
+  removeHandler = () => {
     if (!this.state.likes > 0)return
     this.setState({likes: this.state.likes - 1})
   }
-  resetHandler = () =>{
+  resetHandler = () => {
     this.setState({likes: 0})
   }
+ 
   render() {
     return (
       <div>
         <Header />
         <div className="container">
-          <div className="counter">
+          <div className="counter" style={{backgroundColor: this.state.likes % 2 === 0 ? 'teal' : 'blue' }}>
             <h2>Total likes: {this.state.likes}</h2>
           </div>
           <div className="buttons">
