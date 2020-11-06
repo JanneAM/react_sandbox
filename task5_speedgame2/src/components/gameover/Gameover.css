@@ -1,0 +1,29 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.gameover_popup {
+  background-color: white;
+  padding: 1rem;
+  min-width: 60%;
+  min-height: 25%;
+  border-radius: 5px;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.gameover_popup button {
+  background-color: midnightblue;
+  color: white;
+  cursor: pointer;
+}

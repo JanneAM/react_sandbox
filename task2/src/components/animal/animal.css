@@ -3,7 +3,9 @@
   padding: 1rem;
   margin: 1rem;
   width: fit-content;
+  border-radius: 5px;
 }
+
 .cards img {
   width: 200px;
 }

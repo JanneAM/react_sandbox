@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Architects Daughter", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+      0deg,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    )
+    fixed;
+  color: midnightblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  background: none;
+  color: midnightblue;
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  min-width: 6rem;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}

@@ -1,0 +1,31 @@
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: teal;
+  display: inline-block;
+  margin: 1rem;
+  cursor: pointer;
+  border: 1px solid none;
+}
+
+.teal {
+  background-color: teal;
+}
+.pink {
+  background-color: pink;
+}
+.lavender {
+  background-color: lavender;
+}
+.lime {
+  background-color: lime;
+}
+
+.circle.active {
+  background-color: purple;
+}
+
+p {
+  font-size: 1.5rem;
+}
