@@ -1,0 +1,13 @@
+.form-cont {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: white;
+  width: max-content;
+  text-align: left;
+}
